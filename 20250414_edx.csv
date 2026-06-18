@@ -1,0 +1,16 @@
+문제번호,유형,문제,답,출처,영상,플랫폼,모델,작성자
+1,단답형,"L=[1,2,3] M=L print(M is L)의 결과는?",TRUE,Using Python for Research,Dynamic Typing,GPT-4-turbo,chatgpt,이한석
+2,단답형,"x=[1,2,3,4,5]에서 최댓값을 찾는 방법이 무엇인가요?",max(x),Using Python for Research,Classes and Object-Oriented Programming,GPT-4-turbo,chatgpt,이한석
+3,단답형,"z1=np.array([1,3,5,7,9]) ind=np.array([0,1,2]) w=z1[ind] w의 값은?","1,3,5",Using Python for Research, Indexing NumPy Arrays,GPT-4-turbo,chatgpt,이한석
+4,단답형,numpy를 이용해서 0부터 100까지 10개 구간을 만드시오.,"np.linespace(0,100,10)",Using Python for Research,Building and Examining NumPy Arrays,notebooklm,gemini,이한석
+5,단답형,matplotlib에서 그래프를 보여주는 함수는 무엇인가요?,plt.show(),Using Python for Research,Introduction to Matplotlib and Pyplot,notebooklm,gemini,이한석
+6,단답형,여러 확률변수의 합의 분포는 대략 정규분포를 따릅니다가 무엇입니까?,중심극한정리,Using Python for Research, Examples Using Randomness,GPT-4-turbo,chatgpt,이한석
+7,단답형,"평균 1, 표준편차 2로 3개의 샘플을 생성하시오.","numpy.random.normal(1,2,3)",Using Python for Research,Using the NumPy Random Module,GPT-4-turbo,chatgpt,이한석
+8,단답형,파이썬에서 디렉터리 안에 있는 파일 폴더 목록을 가져오는 함수는 무엇인가요?,os.listdir(),Using Python for Research,Reading Multiple Files,notebooklm,gemini,이한석
+9,단답형,"inputfile=""dna.txt""파일을 읽기 전용으로 파일을 여시오.","open(inputfile, ""r"")",Using Python for Research,Importing DNA Data Into Python,notebooklm,gemini,이한석
+10,단답형,"open(inputfile, ""r"")이 방법 말고 다른 방법으로 파일을 여시오.","with open(inputfile, ""r"") as f:",Using Python for Research,Comparing Your Translation,notebooklm,gemini,이한석
+11,서술형,numpy에서 mean()은 메서드이고 shape은 데이터속성인데 차이를 서술하시오.,"메서드는 객체와 관련된 함수이고, 데이터 속성은 객체와 관련된 데이터입니다.",Using Python for Research,Objects,notebooklm,gemini,이한석
+12,서술형,math.sqrt와 numpy.sqrt는 동일한가?,다르다. 왜냐하면 서로 다른 네임스페이스에 속하기 때문입니다.,Using Python for Research,Modules and Methods,GPT-4-turbo,chatgpt,이한석
+13,서술형,얕은 복사와 깊은 복사의 차이점을 서술하시오.,"얕은복사는 내부 객체를 공유하기 때문에 내부 객체가 변경되면 원본 객체에도 영향을 미치고, 깊은 복사는 모든 객체를 독립적으로 복사하여, 원본 객체와 복사된 객체가 완전히 독립적으로 동작합니다.",Using Python for Research,Copies,GPT-4-turbo,chatgpt,이한석
+14,서술형,파이썬 클래스에서 self는 무엇인가요?,클래스의 인스턴스변수나 메서드를 정의할때 해당 인스턴스 객체를 참조하기 위해 사용됩니다.,Using Python for Research,Classes and Object-Oriented Programming,GPT-4-turbo,chatgpt,이한석
+15,서술형,넘파이의 장점을 쓰시오.,"고속연산, 효율적인 메모리 사용, 편리한 배열 처리, 풍부한 수학적 함수, 브로드캐스팅 등이 있습니다.",Using Python for Research,Introduction to NumPy Arrays,notebooklm,gemini,이한석
